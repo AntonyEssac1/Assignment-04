@@ -22,13 +22,23 @@
             book.copiesInStock = 15;
 
             Console.WriteLine(book.copiesInStock);   //  ---->Does it compile? [ Yes ]
-            //  Whay ? 
+                                                     //  Whay ? 
 
             // Because it is declared as internal, which allows access
 
             // from any class in the same project (assembly).
             #endregion
 
+            #region // Question 3
+
+             book.Title = "Tony";
+
+            Console.WriteLine(book.Title);
+
+
+
+
+            #endregion
 
 
         }
