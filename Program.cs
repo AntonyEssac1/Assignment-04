@@ -19,9 +19,9 @@
 
             #region // Question 2
 
-            book.copiesInStock = 15;
+            //book.copiesInStock = 15;
 
-            Console.WriteLine(book.copiesInStock);   //  ---->Does it compile? [ Yes ]
+            //Console.WriteLine(book.copiesInStock);   //  ---->Does it compile? [ Yes ]
                                                      //  Whay ? 
 
             // Because it is declared as internal, which allows access
@@ -31,13 +31,19 @@
 
             #region // Question 3
 
-             book.Title = "Tony";
+            // book.Title = "Tony";
 
-            Console.WriteLine(book.Title);
-
-
+            //Console.WriteLine(book.Title);
 
 
+
+
+            #endregion
+
+            #region // Question 4
+
+            book.gener = Gener.Science;
+            Console.WriteLine(book.gener);
             #endregion
 
 
