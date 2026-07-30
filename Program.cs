@@ -17,6 +17,17 @@
 
             #endregion
 
+            #region // Question 2
+
+            book.copiesInStock = 15;
+
+            Console.WriteLine(book.copiesInStock);   //  ---->Does it compile? [ Yes ]
+            //  Whay ? 
+
+            // Because it is declared as internal, which allows access
+
+            // from any class in the same project (assembly).
+            #endregion
 
 
 
