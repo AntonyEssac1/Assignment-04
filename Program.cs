@@ -1,4 +1,5 @@
 ﻿using System.Drawing;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace Session_5
 {
@@ -62,10 +63,20 @@ namespace Session_5
 
             // Given int genreNumber = 1;, cast it into a Genre value and print the result.
 
-            int genreNumber = 1;
-            Gener gener = (Gener)genreNumber;
-            Console.WriteLine(gener);
+            //int genreNumber = 1;
+            //Gener gener = (Gener)genreNumber;
+            //Console.WriteLine(gener);
 
+            #endregion
+
+            #region // Question 7
+
+            //Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
+
+            Gener gener = Gener.Fiction;
+            string genderName = gener.ToString();
+            Console.WriteLine(genderName);
+            Console.WriteLine(genderName is string); //  ---> For test
             #endregion
 
 
