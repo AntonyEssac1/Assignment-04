@@ -1,4 +1,6 @@
-﻿namespace Session_5
+﻿using System.Drawing;
+
+namespace Session_5
 {
     internal class Program
     {
@@ -22,7 +24,7 @@
             //book.copiesInStock = 15;
 
             //Console.WriteLine(book.copiesInStock);   //  ---->Does it compile? [ Yes ]
-                                                     //  Whay ? 
+            //  Whay ? 
 
             // Because it is declared as internal, which allows access
 
@@ -42,9 +44,19 @@
 
             #region // Question 4
 
-            book.gener = Gener.Science;
-            Console.WriteLine(book.gener);
+            //book.gener = Gener.Science;
+            //Console.WriteLine(book.gener);
             #endregion
+
+            #region // Question 5
+
+            /*Using the Genre enum above, print the underlying int value ofGenre.Fiction,
+            Genre.NonFiction, and Genre.Science by casting each to int.*/
+
+           
+            Console.WriteLine((int)Gener.Science);
+            #endregion
+
 
 
         }
