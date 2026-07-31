@@ -53,8 +53,19 @@ namespace Session_5
             /*Using the Genre enum above, print the underlying int value ofGenre.Fiction,
             Genre.NonFiction, and Genre.Science by casting each to int.*/
 
-           
-            Console.WriteLine((int)Gener.Science);
+
+            //Console.WriteLine((int)Gener.Science);
+
+            #endregion
+
+            #region // Question 6
+
+            // Given int genreNumber = 1;, cast it into a Genre value and print the result.
+
+            int genreNumber = 1;
+            Gener gener = (Gener)genreNumber;
+            Console.WriteLine(gener);
+
             #endregion
 
 
