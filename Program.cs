@@ -73,10 +73,21 @@ namespace Session_5
 
             //Given Genre genre = Genre.Fiction;, convert it into a string using ToString() and print it.
 
-            Gener gener = Gener.Fiction;
-            string genderName = gener.ToString();
-            Console.WriteLine(genderName);
-            Console.WriteLine(genderName is string); //  ---> For test
+            //Gener gener = Gener.Fiction;
+            //string genderName = gener.ToString();
+            //Console.WriteLine(genderName);
+            //Console.WriteLine(genderName is string); //  ---> For test
+            #endregion
+
+            #region // Question 8
+
+            /*Given string genreText = "Science";, convert it into a Genre value 
+            using Enum.Parse() and print the result.*/
+
+            string genreText = "Science";
+            Gener genre = Enum.Parse<Gener>(genreText);
+            Console.WriteLine(genre);
+            Console.WriteLine(genre.GetType());
             #endregion
 
 
