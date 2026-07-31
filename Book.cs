@@ -8,6 +8,7 @@ namespace Session_5
     {
         private string password = "secret";
         internal int copiesInStock = 5;
-         public string Title;
+        public string Title;
+        internal Gener gener;
     }
 }
